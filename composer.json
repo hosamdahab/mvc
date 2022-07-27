@@ -1,0 +1,14 @@
+{
+    "name": "hossam/php-mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\":"App",
+            "Src\\":"Src"
+        }
+       
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/var-dumper":"^5.2"
+    }
+}
